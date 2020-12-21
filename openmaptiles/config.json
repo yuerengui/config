@@ -1,0 +1,35 @@
+{
+  "options": {
+    "paths": {
+      "root": "/usr/src/app/node_modules/tileserver-gl-styles",
+      "fonts": "fonts",
+      "styles": "styles",
+      "mbtiles": "/data"
+    },
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxSize": 8192,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveStaticMaps": true
+  },
+  "styles": { 
+    "maptiler-street-v2": {
+      "style": "/data/styles/maptiler-street-v2/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [-141.7761, 41.6377, -44.17684, 85.04032]
+      }
+    }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "canada.mbtiles"
+    },
+    "properties": {
+      "mbtiles": "toronto-and-york-z14.mbtiles"
+    }
+  }
+}
